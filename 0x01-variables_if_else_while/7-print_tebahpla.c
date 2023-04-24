@@ -6,12 +6,11 @@
 */
 int main(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-	int length = strlen(alphabet);
+	char alphabet[26] = "zyxwvutsrqponmlkjihgfedcba";
 
 	int i;
 
-	for (i = length - 1; i >= 0; i--)
+	for (i = 0; i < 26; i++)
 	{
 		putchar(alphabet[i]);
 	}
