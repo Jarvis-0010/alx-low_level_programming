@@ -5,17 +5,17 @@
 */
 int main(void)
 {
-	int i;
+	int number;
 
-	for (i = 0; i < 16; i++)
+	for (number = 0; number < 16; number++)
 	{
-		if (i < 10)
+		if (number < 10)
 		{
-			putchar(i + '0');
+			putchar(number + '0');
 		}
 		else
 		{
-			putchar(i - 10 + 'a');
+			putchar(number - 10 + 'a');
 		}
 	}
 	putchar('\n');
