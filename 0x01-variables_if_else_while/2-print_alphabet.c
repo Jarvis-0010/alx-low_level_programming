@@ -5,13 +5,13 @@
 */
 int main(void)
 {
-	char alphabet = 'a';
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 
 	int i;
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar("%c", alphabet);
+		putchar(alphabet[i];
 		alphabet++;
 	}
 	return (0);
