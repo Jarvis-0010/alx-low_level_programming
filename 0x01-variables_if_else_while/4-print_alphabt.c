@@ -11,7 +11,11 @@ int main(void)
 
 	for (i = 0; i < 26; i++)
 	{
-		if (alphabet[4] && alphabet[16])
+		if (alphabet[i] == alphabet[4])
+		{
+			continue;
+		}
+		if (alphabet[i] == alphabet[16])
 		{
 			continue;
 		}
