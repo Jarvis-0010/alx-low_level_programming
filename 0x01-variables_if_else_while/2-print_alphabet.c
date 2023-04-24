@@ -9,10 +9,9 @@ int main(void)
 
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < alphabet; i++)
 	{
-		putchar(alphabet[i];
-		alphabet++;
+		putchar(alphabet[i]);
 	}
 	return (0);
 }
