@@ -5,6 +5,11 @@
 */
 int main(void)
 {
+	print_alphabet(void);
+	return (0);
+}
+void print_alphabet(void)
+{
 	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
@@ -13,5 +18,4 @@ int main(void)
 		putchar(alphabet[i]);
 	}
 	putchar('\n');
-	return (0);
 }
