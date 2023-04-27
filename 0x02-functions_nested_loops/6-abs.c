@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* int _abs - Entry point
+* _abs - Entry point
 * @n: value being tested
 * Return: Always 0 (Success)
 */
