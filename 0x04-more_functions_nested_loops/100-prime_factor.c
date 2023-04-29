@@ -16,7 +16,7 @@ int main(void)
 		x /= 2;
 	} while (x % 2 == 0);
 
-	for (i = 3; i <= sqrt(x); i += 2;)
+	for (i = 3; i <= sqrt(x); i += 2)
 	{
 		while (x % 1 == 0)
 		{
@@ -26,9 +26,9 @@ int main(void)
 	}
 
 	if (x > 2)
-		maxNumber = n;
+		maxNumber = x;
 
-	printf("%d\n", maxNumber);
+	printf("%1ld\n", maxNumber);
 	return (0);
 
 }
