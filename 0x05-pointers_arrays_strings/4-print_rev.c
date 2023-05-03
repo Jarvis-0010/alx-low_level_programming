@@ -3,7 +3,7 @@
 #include<string.h>
 /**
  * print_rev - Entry point
- * @s - string being printed
+ * @s: string being printed
  * REturn: void
 */
 void print_rev(char *s)
@@ -18,7 +18,7 @@ void print_rev(char *s)
 		s++;
 	}
 
-	for (i = len; i >= 0; i--)
+	for (i = len; i > 0; i--)
 	{
 		_putchar(*s);
 		s--;
